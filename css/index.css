@@ -178,8 +178,7 @@ footer{
 
 #l2 img{
     width: 30px;
-    margin-left:  15px;
-
+    margin-right: 10px;
 }
 
 #puntos{
@@ -236,7 +235,7 @@ footer{
     }
 
     aside #horario img{
-        width: 500px;
+        width: 350px;
         border-radius: 10px;
         border: solid blue 5px;
         transition: transform 0.9s;
@@ -270,7 +269,7 @@ footer{
     }
 
     #l1{
-        justify-content: space-around;
+        justify-content:space-around;
         width: 100%;
         margin-left: 0px;
         margin-top: 40px;
@@ -278,31 +277,18 @@ footer{
 
     #l2{
         width: 100%;
-        margin-left: 0px;
+        margin: 0;
+        padding: 0;
         justify-content: space-around;
     }
 
     #l2 img{
-        width: 30px;
-        margin-left:  15px;
-        margin-top: -5px;
-    
-    }
-    
-    #puntos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        width: 68%;
-        margin-top: -10px;
-    }
-    
-    #puntos img{
-        width: 100px;
-        position: absolute;
+        width: 20px;
+        margin: 0;
     }
 
-    
+    #imagen{
+        margin-left: -60px;
+    }
 
 }
